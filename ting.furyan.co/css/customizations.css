@@ -1,3 +1,47 @@
 .header {
     color: #fff;
 }
+
+.portfolio {
+    /*padding: 50px 0;*/
+}
+
+.portfolio-item {
+    /*margin-bottom: 30px;*/
+}
+
+.img-portfolio {
+    /*margin: 0 auto;*/
+}
+
+.img-portfolio:hover {
+    opacity: 0.2;
+}
+
+.cust-imgtext {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color:#111;
+  text-align: justify;
+  vertical-align: middle;
+  z-index: 10;
+  opacity: 0;
+  background-color:rgba(255,255,255,0.8);
+  width: 500px;
+  height: 333px;
+  line-height: 120%;
+  font-size: 2.5em;
+  font-weight: 300;
+  padding-right: 30px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.cust-imgtext:hover {
+  opacity:1;
+}
+
+img {
+  z-index:1;
+}
